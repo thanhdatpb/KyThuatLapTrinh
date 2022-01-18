@@ -1,14 +1,12 @@
 #include "stdio.h"
 
 void Member_1(){
-  printf("DPT\n");
 }
 
 void Member_2(){
 }
 
 void Member_3(){
-  printf("VVDUNG\n");
 }
 
 int main(int argc, char const *argv[])
