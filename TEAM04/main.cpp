@@ -1,14 +1,14 @@
 #include "stdio.h"
 
-void Member_1(){
-  printf("ndm\n");  
-  
+void Member_1(){  
+
 }
 
 void Member_2(){
 }
 
 void Member_3(){
+ printf("ndm\n"); 
 }
 
 int main(int argc, char const *argv[])
