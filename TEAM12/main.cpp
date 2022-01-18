@@ -6,8 +6,8 @@ void Member_1(){
 void Member_2(){
 }
 
-void Nguyen_Hoang_Anh_Tu(){
-  printf("(+) Nguyen Hoang Anh Tu: Xin chao!!\n");
+void Member_3(){
+  printf("Welcome\n");
 }
 
 int main(int argc, char const *argv[])
@@ -15,6 +15,6 @@ int main(int argc, char const *argv[])
   printf("WELCOME C/C++\n");
   Member_1();
   Member_2();
-  Nguyen_Hoang_Anh_Tu();  
+  Member_3();  
   return 0;
 }
