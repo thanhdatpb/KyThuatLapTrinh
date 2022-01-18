@@ -7,7 +7,7 @@ void Member_2(){
 }
 
 void Member_3(){
-  printf("welcome\n");
+  printf("thanh ngan\n");
 }
 
 int main(int argc, char const *argv[])
