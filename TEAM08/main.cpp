@@ -8,6 +8,7 @@ void Member_2(){
 }
 
 void Member_3(){
+  printf("\nLe Phuoc Quang\n");
 }
 
 int main(int argc, char const *argv[])
