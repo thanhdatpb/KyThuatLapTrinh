@@ -5,7 +5,7 @@ void Member_1(){
 }
 
 void Member_2(){
-  printf("Nguyen Dinh Tien\n");
+  printf("\nNguyen Dinh Tien\n");
 }
 
 void Member_3(){
