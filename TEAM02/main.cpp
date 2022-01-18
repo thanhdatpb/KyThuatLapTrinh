@@ -5,6 +5,7 @@ void Member_1(){
 }
 
 void Member_2(){
+  printf("[+] Member 3: Nguyen Van Dinh - 21T1020017\n\tHello World!\n");
 }
 
 void Member_3(){
