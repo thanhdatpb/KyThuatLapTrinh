@@ -1,8 +1,6 @@
 #include "stdio.h"
 
 void Member_1(){
-  printf("ndm\n");  
-  
 }
 
 void Member_2(){
