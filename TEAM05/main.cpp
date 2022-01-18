@@ -7,7 +7,7 @@ void Member_2(){
 }
 
 void Member_3(){
-  printf("nguyen thi thanh ngan\n");
+  printf(" thanh ngan\n");
 }
 
 int main(int argc, char const *argv[])
