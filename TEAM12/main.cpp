@@ -4,6 +4,7 @@ void Member_1(){
 }
 
 void Member_2(){
+  printf("Ngo Nguyen Duc Quy: Xin Chao!!\n");
 }
 
 void Member_3(){
