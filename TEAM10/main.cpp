@@ -1,6 +1,7 @@
 #include "stdio.h"
 
 void Member_1(){
+  printf("DPT\n");
 }
 
 void Member_2(){
