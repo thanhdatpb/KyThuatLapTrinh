@@ -4,6 +4,7 @@ void Member_1(){
 }
 
 void Member_2(){
+  printf("Tran Nhu Y\n");
 }
 
 void Member_3(){
