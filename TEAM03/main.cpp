@@ -5,10 +5,11 @@ void Member_1(){
 }
 
 void Member_2(){
-  printf("Lê Nguyễn Thiện Bình\n")
+  printf("Lê Nguyễn Thiện Bình\n");
 }
 
 void Member_3(){
+  printf("DucLuong\n");
 }
 
 int main(int argc, char const *argv[])
