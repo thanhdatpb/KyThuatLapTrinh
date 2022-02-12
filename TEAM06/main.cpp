@@ -8,6 +8,7 @@ void Member_2(){
 }
 
 void Member_3(){
+  printf("welcom \n")
 }
 
 int main(int argc, char const *argv[])
@@ -15,6 +16,6 @@ int main(int argc, char const *argv[])
   printf;"WELCOME C/C++\n");
   Member_1();
   Member_2();
-  Member_3();  
+  Member_3(TruongVinhNguyen);  
   return 0;
 }
