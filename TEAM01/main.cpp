@@ -1,6 +1,7 @@
 #include "stdio.h"
 
 void Member_1(){
+  printf("WELCOME LINUX\n");
 }
 
 void Member_2(){
