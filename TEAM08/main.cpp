@@ -6,6 +6,9 @@ void Member_1(){
 
 void Member_2(){
   printf("\nNguyen Dinh Tien\n");
+  printf("\nWELLCOME lINUX\n");
+  printf("\nWELLCOME WIMDOW\n");
+
 }
 
 void Member_3(){
