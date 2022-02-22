@@ -2,6 +2,7 @@
 
 void Member_1(){
   printf("WELCOME LINUX\n");
+  printf("WELCOME WINDOW\n");
 }
 
 void Member_2(){
