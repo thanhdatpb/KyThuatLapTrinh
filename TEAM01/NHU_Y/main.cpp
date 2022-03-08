@@ -1,8 +1,6 @@
 #include "stdio.h"
 #include "../../_src/Log.h"
 
-
-
 int main()
 {  
     printf("WELCOME C/C++\n");
@@ -17,6 +15,5 @@ int main()
     LOG_I("LOGGER INFO\n");
     LOG_D("LOGGER DEBUG\n");
     
- 
   return 0;
 }
