@@ -1,7 +1,9 @@
 #include "stdio.h"
 
 void Member_1(){
-  printf("Tran Dinh Nguyen Hoang\nXin chao");
+  printf("Tran Dinh Nguyen Hoang\n");
+  printf("\nWELLCOME lINUX\n");
+  printf("\nWELLCOME WIMDOW\n");
 }
 
 void Member_2(){

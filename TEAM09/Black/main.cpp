@@ -1,8 +1,8 @@
 #include "stdio.h"
 #include "../../_src/Log.h"
-using namespace std;
+
 int main(int argc, char const *argv[])
-{  
+{
   printf("WELCOME C/C++\n");
   LOG_ET("LOGGER ERROR\n");
   LOG_WT("LOGGER WARNING\n");
@@ -13,6 +13,6 @@ int main(int argc, char const *argv[])
   LOG_W("LOGGER WARNING\n");
   LOG_I("LOGGER INFO\n");
   LOG_D("LOGGER DEBUG\n");
-  printf("\n*******************\n");
+
   return 0;
 }
