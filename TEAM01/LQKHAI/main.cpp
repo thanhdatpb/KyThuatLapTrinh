@@ -3,7 +3,7 @@
 
 int main()
 {  
-    printf("WELCOME C/C++ \n");
+    printf("WELCOME C/C++  \n");
     
     LOG_ET("LOGGER ERROR\n");
     LOG_WT("LOGGER WARNING\n");
