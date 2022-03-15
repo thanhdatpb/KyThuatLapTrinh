@@ -1,6 +1,5 @@
-#include "stdio.h"
-#include "iostream"
-using namespace std;
+#include <stdio.h>
+
 void Member_1(){
  cout<<"Hoang Huu Hoi"<<endl;
 }
