@@ -1,7 +1,8 @@
 #include "stdio.h"
 #include "../../_src/Log.h"
 
-int main(int argc, char const *argv[]){  
+int main(int argc, char const *argv[])
+{  
   printf("WELCOME C/C++\n");
   LOG_ET("LOGGER ERROR RED\n");
   LOG_WT("LOGGER WARNING\n");
