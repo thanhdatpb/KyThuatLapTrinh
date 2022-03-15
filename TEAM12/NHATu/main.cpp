@@ -9,5 +9,10 @@ int main(int argc, char const *argv[])
   LOG_IT("LOGGER INFO\n");
   LOG_DT("LOGGER DEBUG\n");
 
+  LOG_E("LOGGER ERROR\n");
+  LOG_W("LOGGER WARNING\n");
+  LOG_I("LOGGER INFO\n");
+  LOG_D("LOGGER DEBUG\n");
+
   return 0;
 }
