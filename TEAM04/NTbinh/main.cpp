@@ -17,5 +17,5 @@ int main()
     for (int i = 0; i < iCnt;i++)
     LOG_WT("%d [%s]\n",i,arrName[i].c_str());
     
-
+    return 0;
 }
