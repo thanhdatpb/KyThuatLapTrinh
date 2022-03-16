@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-    char ten[] ="Le Phuoc Quang";
-    char lop[] =" KNTT-K45-D";
+    char ten[] ="Nguyen Thi Thanh Ngan";
+    char lop[] =" KTLT-K45-G";
     int thang = 3;
     int nam = 2022;
     std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang, nam);

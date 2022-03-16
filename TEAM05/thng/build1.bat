@@ -1,7 +1,7 @@
 @echo off
 set SRC=..\..\_src
-g++ main.cpp ^
+g++ ng.cpp ^
      %SRC%\Log.cpp ^
      %SRC%\Utils.cpp ^
--o t.exe
-REM g++ main.cpp ../../_src/Log.h -o miu.exe
+-o n.exe
+REM g++ ng.cpp ../../_src/Utils.h -o miu.exe
