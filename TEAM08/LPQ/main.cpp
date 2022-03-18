@@ -1,21 +1,16 @@
-#include<iostream>
-#include<stdio.h>
-#include "..\..\_src\Utils.h"
+#include <stdio.h>
 #include "..\..\_src\Log.h"
-using namespace std;
 
-int main()
-{
-    char ten[] ="Le Phuoc Quang";
-    char lop[] =" CNTT-K45-D";
-    int thang = 3;
-    int nam = 2022;
-    std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang, nam);
-    LOG_IT("%s\n",name.c_str());
-    std::vector<std::string> arrName = SplitString(name.c_str()," ");
-    int iCnt = (int)arrName.size();
-    for (int i = 0; i < iCnt;i++)
-    LOG_WT("%d [%s]\n",i,arrName[i].c_str());
-    
-    return 0;
+int main(){
+  printf("WELCOME C/C++\n");
+  LOG_WT("Logger Warning\n");
+  LOG_IT("Logger Info\n");
+  LOG_ET("Logger Error\n");
+  LOG_DT("Logger Debug\n");
+
+  LOG_W("Logger Warning\n");
+  LOG_I("Logger Info\n");
+  LOG_E("Logger Error\n");
+  LOG_D("Logger Debug\n");
+ return 0;
 }
