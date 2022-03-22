@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     char ten[] ="Tran Dinh Nguyen Hoang";
-    char lop[] =" KNTT-K45-E";
+    char lop[] =" CNTT-K45-E";
     int thang = 3;
     int nam = 2022;
     std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang, nam);
