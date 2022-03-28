@@ -4,7 +4,7 @@
 
 int main(){
     LOG_D("\n**************\n");
-    char ten[]="Le Phuoc Quang";
+    char ten[]="Le Quang Khai";
     char lop[]="KTLT-14";
     int thang = 3;
     int nam = 2022;
