@@ -1,6 +1,6 @@
 #include<iostream>
-#include"..\..\_src\Log.h"
-#include"..\..\_src\Utils.h"
+#include"../../_src/Log.h"
+#include"../../_src/Utils.h"
 
 int main(){
     LOG_D("\n**************\n");
