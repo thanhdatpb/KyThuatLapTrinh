@@ -5,8 +5,8 @@ using namespace std;
 int main()
 {
   LOG_WT("Bai: Tong so trong xau\n");
-  LOG_IT("Ten: Tran Quoc Viet\n");
-  LOG_IT("Msv: 21T1020834\n");
+  LOG_IT("Ten: Nguyen Thi Thanh Ngan\n");
+  LOG_IT("Msv: 21T1020529\n");
   LOG_DT("-----\n");
   string s="5 random strings contain 234 numbers";
   int ans=0;
