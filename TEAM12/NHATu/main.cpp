@@ -16,7 +16,7 @@ int main()
   LOG_I("LOGGER INFO\n");
   LOG_D("LOGGER DEBUG\n");
   printf("/n*******************/n");
-  char ten[]="Ngo Nguyen Duc Quy";
+  char ten[]="Nguyen Hoang Anh Tu";
   char lop[]="ktlt - n14";
   int thang=3;
   int nam=2022;

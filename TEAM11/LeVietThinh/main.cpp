@@ -20,7 +20,7 @@ int main() {
   // return 0;
   
     LOG_D("\n***************************\n");
-    char ten[] = "Nhu Y";
+    char ten[] = "Viet Thinh";
     char lop[] = "KTLT - N14";
     int thang = 3; 
     int nam = 2022;
