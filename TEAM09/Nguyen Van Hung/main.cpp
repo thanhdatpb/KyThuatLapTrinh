@@ -3,10 +3,11 @@
 #include "..\..\_src\Utils.h"
 #include "..\..\_src\Log.h"
 using namespace std;
+
 int main()
 {
-    char ten[] ="Le Phuoc Quang";
-    char lop[] =" KNTT-K45-D";
+    char ten[] ="Nguyen Van Hung";
+    char lop[] =" CNTT-K45-C";
     int thang = 3;
     int nam = 2022;
     std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang, nam);
