@@ -23,8 +23,8 @@ ll ans(string &s)
 void Output()
 {
     LOG_ET("Bai : Tong so trong xau\n");
-    LOG_WT("Ten: Hoang Hao\n");
-    LOG_IT("Ma sv: 21T1020347\n");
+    LOG_WT("Ten: Nguyen Van Dinh\n");
+    LOG_IT("Ma sv: 21T1020017\n");
     LOG_DT("_____\n");
     LOG_ET("Nhap chuoi: ");
     getline(cin, s);
