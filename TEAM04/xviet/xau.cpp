@@ -1,28 +1,37 @@
-#include <stdio.h>
-#include <conio.h>
-#include <string.h>
+#include <iostream>
+#include <string>
+#include "../../_src/Log.h"
+using namespace std;
+#define ll long long
+string s;
+ll ans(string &s)
+{
+  ll res = 0;
+  for (int i = 0; i < s.size(); i++)
+  {
+    ll ans = 0;
+    while (isdigit(s[i]))
+    {
+      ans = ans * 10 + s[i] - '0';
+      i++;
+    }
+    res += ans;
+  }
+  return res;
+}
+void Output()
+{
+  LOG_ET("Bai : Tong so trong xau\n");
+  LOG_WT("Ten: Nguyen Xuan Viet\n");
+  LOG_IT("Ma sv: 21T1020170\n");
+  LOG_DT("_____\n");
+  LOG_ET("Nhap  vao chuoi: ");
+  getline(cin, s);
+  LOG_ET("Tong so: %lld", ans(s));
+}
 int main()
 {
-    char str[50];
-    int i = 0, j, tong = 0, n;
-    printf("Nhap 1 xau: ");
-    gets(str);
-    while (i <= strlen(str) - 1)
-        if (str[i] <= '9' && str[i] >= '0')
-        {
-            j = i;
-            n = 0;
-            while (j <= strlen(str) - 1 && (str[j] <= '9' && str[j] >= '0'))
-            {
-                n = 10 * n + (int)str[j] - 48;
-                j++;
-            }
-            printf("+ %d ", n);
-            tong += n;
-            i = j;
-        }
-        else
-            i++;
-    printf("= %d", tong);
-    getch();
+  ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+  Output();
+  return 0;
 }
