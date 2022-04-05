@@ -1,7 +1,7 @@
 #include<iostream>
 #include<stdio.h>
-#include "..\..\_src\Utils.h"
-#include "..\..\_src\Log.h"
+#include "../../_src/Utils.h"
+#include "../../_src/Log.h"
 using namespace std;
 
 int main()
