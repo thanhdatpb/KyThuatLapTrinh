@@ -4,8 +4,8 @@
 
 int main(){
     LOG_D("\n**************\n");
-    char ten[]="Le Phuoc Quang";
-    char lop[]="KTLT-14";
+    char ten[]="Ho Kieu Ni";
+    char lop[]="KTLT-N14";
     int thang = 3;
     int nam = 2022;
     std::string name = StringFormat("%s %s %02d %04d",ten,lop,thang,nam);

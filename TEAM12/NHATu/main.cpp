@@ -1,18 +1,30 @@
-#include "stdio.h"
+#include<bits/stdc++.h>
 #include "../../_src/Log.h"
-
-int main(int argc, char const *argv[])
-{  
-  printf("WELCOME C/C++\n");
-  LOG_ET("LOGGER ERROR\n");
-  LOG_WT("LOGGER WARNING\n");
-  LOG_IT("LOGGER INFO\n");
-  LOG_DT("LOGGER DEBUG\n");
-
-  LOG_E("LOGGER ERROR\n");
-  LOG_W("LOGGER WARNING\n");
-  LOG_I("LOGGER INFO\n");
-  LOG_D("LOGGER DEBUG\n");
-
+#include "../../_src/Utils.h"
+using namespace std;
+int main()
+{
+  LOG_WT("Bai: Tong so trong xau\n");
+  LOG_IT("Ten: Nguyen Hoang Anh Tu\n");
+  LOG_IT("Msv: 21T1020792\n");
+  LOG_DT("-----\n");
+  string s="5 random strings contain 234 numbers";
+  int ans=0;
+  string t="";
+  LOG_DT("Nhap chuoi: 5 random strings contain 234 numbers\n");
+  for(char ch : s)
+  {
+    if(ch>'0'&& ch <='9')
+        t+=ch;
+    else
+      {
+        if(t.length()>0)
+          ans+=stoi(t);
+          t="";
+      }
+  }
+  if(t.length()>0)
+    ans+=stoi(t);
+  LOG_WT("Tong so: %d",ans);
   return 0;
 }
