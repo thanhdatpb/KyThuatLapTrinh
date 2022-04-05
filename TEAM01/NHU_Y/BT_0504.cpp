@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include<string>
 #include<string.h>
@@ -8,10 +7,10 @@
 int main(){
     char a[500];
     int i=0, j, sum=0, n; 
-    LOG_ET("Bai : Tong so trong xau\n");
+    LOG_ET("Bai: Tong so trong xau\n");
     LOG_WT("Ten: Tran Nhu Y\n");
     LOG_IT("Ma sv: 21T1020105\n");
-    LOG_DT("_____\n");
+    LOG_DT("-----\n");
     LOG_ET("Nhap chuoi: ");
     fgets(a, sizeof(a), stdin);
     while(i < strlen(a) ) 
