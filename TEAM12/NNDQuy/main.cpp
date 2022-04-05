@@ -9,10 +9,11 @@ int main()
   LOG_IT("Ten: Ngo Nguyen Duc Quy\n");
   LOG_IT("Msv: 21T1020155\n");
   LOG_DT("-----\n");
-  string s="5 random strings contain 234 numbers";
+  string s;
+  scanf("%s",&s);
   int ans=0;
   string t="";
-  LOG_DT("Nhap chuoi: 5 random strings contain 234 numbers\n");
+  LOG_DT("Nhap chuoi: %s\n",&s);
   for(char ch : s)
   {
     if(ch>'0'&& ch <='9')
