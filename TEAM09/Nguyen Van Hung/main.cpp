@@ -6,8 +6,8 @@ using namespace std;
 
 int main()
 {
-    char ten[] ="Nguyen Dinh Tien";
-    char lop[] =" KTPM - 111";
+    char ten[] ="Nguyen Van Hung";
+    char lop[] =" CNTT-K45-C";
     int thang = 3;
     int nam = 2022;
     std::string name = StringFormat("%s %s %02d %04d",ten, lop, thang, nam);
@@ -16,5 +16,6 @@ int main()
     int iCnt = (int)arrName.size();
     for (int i = 0; i < iCnt;i++)
     LOG_WT("%d [%s]\n",i,arrName[i].c_str());
+    
     return 0;
 }
