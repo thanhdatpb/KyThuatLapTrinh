@@ -44,7 +44,7 @@ void  InsertLast(List* l,int ele){
   if (l->head == NULL) l->head = p;
   else l->tail->next = p;
   l->tail = p;  
-  LOG_E("[+] [%p]\n",p);
+  //LOG_E("[+] [%p]\n",p);
 }
 void  Delete(List* l, int pos){
   if (l == NULL || l->head == NULL || pos <= 0) return;
@@ -62,14 +62,7 @@ void  Delete(List* l, int pos){
   else{
     //prev # NULL
     prev->next = p->next;
-    if (p == l->tail) l->tail = prev;
-    /*if (p == l->tail){
-      l->tail = prev;
-      l->tail->next = NULL;
-    }
-    else{
-      prev->next = p->next;
-    }*/
+    if (p == l->tail) l->tail = prev;    
   }
   delete p;
 }
