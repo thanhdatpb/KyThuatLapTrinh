@@ -16,7 +16,7 @@ bool songuyento(int n)
     }
     return true;
 }
-void locsonguyentotrongxau(string &a)
+void Locsonguyentotrongxau(string &a)
 {
     int i = 0, j;
     while (i <= a.length() - 1)
@@ -47,6 +47,6 @@ int main()
     LOG_DT("Nhap chuoi: ");
     getline(cin, s);
     LOG_WT("So nguyen to: ");
-    locsonguyentotrongxau(s);
+    Locsonguyentotrongxau(s);
     return 0;
 }
