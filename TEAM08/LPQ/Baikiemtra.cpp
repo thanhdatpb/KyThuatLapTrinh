@@ -1,43 +1,34 @@
-#include<iostream>
-#include"../../_src/Log.h"
-#include"../../_src/Utils.h"
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
+#include "../../_src/Log.h"
 using namespace std;
-bool check(int n){
-    if(n<2) return false;
-    if(n>2){
-        for(int i=2;i<=sqrt(n);i++){
-        if(n%i==0) return false;
+#define ll long long
+int Eratos(int n){
+    for( int i = 2; i <= sqrt(n); i++ ){
+        if(n % i == 0) return 0;
     }
+    return n > 1;
 }
-    return true;
-}
-int main(){
-    string s;
-    getline(cin,s);
-    for(int i=0;i<s.size();i++){
-            if(s[i]>=48&&s[i]<=57){
-            int so=0;
-            while(s[i]>=48&&s[i]<=57){
-                so=so*10+(s[i]-48);
-                i++;
-            }
-            if(check(so)==true) cout<<so<<endl;
+void Res( string &s){
+    for( int i = 0; i < s.size(); i++ ){
+        ll ans = 0;
+        while(isdigit(s[i])){
+            ans = ans * 10 + s[i] - '0';
+            i++;
         }
+        if(Eratos(ans)) cout << ans << " ";
     }
 }
-void Output()
-{
-    LOG_ET("Bai : Loc so nguyen to trong xau\n");
+void Output(){
+    string s; 
+    LOG_ET( "Bai : Loc so nguyen to trong xau\n");
     LOG_WT("Ten: Le Phuoc Quang\n");
     LOG_IT("Ma sv: 21T1020065\n");
     LOG_DT("_____\n");
-    LOG_ET("Nhap chuoi: ");
-    LOG_ET("So nguyen to: ");
+    LOG_ET( "Nhap chuoi: " ); getline( cin, s );
+    LOG_WT( "So nguyen to: " ); Res(s);
 }
-int main()
-{
-    ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
+int main(){
+    ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     Output();
     return 0;
 }
