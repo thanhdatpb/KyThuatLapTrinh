@@ -1,51 +1,53 @@
 #include <iostream>
-#include <string>
+#include <bits/stdc++.h>
 using namespace std;
-
-#define max 1001
-
-int prime[max];
-
-void sieve()
+int SoNguyenTo(int n)
 {
-    for (int i = 0; i <= 1000; i++)
-        prime[i] = 1;
-    prime[0] = prime[1] = 0;
-    for (int i = 2; i <= 1000; i++)
+    if (n < 2)
     {
-        if (prime[i])
+        return 0;
+    }
+    int i;
+    int a = (int)sqrt(n);
+    for (i = 2; i <= a; i++)
+    {
+        if (n % i == 0)
         {
-            for (int j = i * i; j <= 1000; j += i)
-            {
-                prime[j] = 0;
-            }
+            return 0;
         }
     }
+    return 1;
 }
-
-void filter(string s)
+long check(string s)
 {
-    int sum = 0;
-    int x = 0;
-    sieve();
-    for (int i = 0; i <= s.length(); i++)
+    long i, n = s.size(), temp = 0, sum = 0;
+    for (i = 0; i < n; i++)
     {
-        if (s[i] >= '0' && s[i] <= '9')
+        if (s[i] >= 48 && s[i] <= 57)
         {
-            int a = s[i];
-            x = x * 10 + (a - 48);
+            temp = temp * 10 + (s[i] - 48);
         }
         else
         {
-            if (prime[x] && x != 0)
-                cout << x << endl;
-            x = 0;
+            if (SoNguyenTo(temp) == 1)
+            {
+                cout << temp << endl;
+            }
+            temp = 0;
+        }
+        if (s[i] >= 48 && s[i] <= 57 && s[i + 1] == '\0')
+        {
+            if (SoNguyenTo(temp) == 1)
+            {
+                cout << temp << endl;
+            }
         }
     }
 }
 int main()
 {
     string s;
-    cin >> s;
-    filter(s);
+    getline(cin, s);
+    check(s);
+    return 0;
 }
