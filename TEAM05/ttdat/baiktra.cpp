@@ -15,7 +15,7 @@ void Res( string &s){
             ans = ans * 10 + s[i] - '0';
             i++;
         }
-        if(Eratos(ans)) cout << ans << " ";
+         if(Eratos(ans)) cout << ans << " ";
     }
 }
 void Output(){
