@@ -23,6 +23,14 @@ int main(){
     printf("Nhap chuoi: ");
 	fgets(s, sizeof(s), stdin);
 	int len = strlen(s);
-    LOG_ET("So nguyen to: ");
-	
+    LOG_WT("So nguyen to: ");
+	for(i=0; i<=len; i++){
+		if(s[i]>='0' && s[i]<='9')
+			ans = ans*10 +(s[i] - '0');
+		else{
+			if(KTSoNguyenTo(ans)) 
+				LOG_W("%d ", ans);
+			ans = 0;	
+		}
+	}
 }
