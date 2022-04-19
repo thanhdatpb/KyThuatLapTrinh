@@ -6,4 +6,6 @@ set SRC=..\..\_src
     %SRC%\Log.cpp ^
     %SRC%\Utils.cpp ^
 -o t.exe
+
 REM g++ main.cpp ../../_src/Log.cpp -o t.exe
+
