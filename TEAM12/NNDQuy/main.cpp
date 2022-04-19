@@ -12,7 +12,7 @@ int main()
   string s;
   int ans=0;
   string t="";
-  LOG_DT("Nhap chuoi: \n");
+  LOG_DT("Nhap chuoi: ");
   getline(cin,s);
   for(char ch : s)
   {
