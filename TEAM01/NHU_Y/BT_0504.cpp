@@ -2,7 +2,7 @@
 #include<string>
 #include<string.h>
 #include<math.h>
-#include "../../_src/Log.h"
+#include "/../../_src/Log.h"
 
 int main(){
     char a[500];
