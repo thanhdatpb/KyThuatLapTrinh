@@ -3,3 +3,4 @@ git branch
 git merge
 git checkout
 git add
+git clean
