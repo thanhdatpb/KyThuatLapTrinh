@@ -2,3 +2,4 @@ ubuntu Linux
 123456
 heeki  
 laky
+hay
