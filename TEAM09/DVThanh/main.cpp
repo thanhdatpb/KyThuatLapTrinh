@@ -26,7 +26,7 @@ void Output()
     LOG_WT("Ten:Duong Van Thanh\n");
     LOG_IT("Ma sv: 21T1020698\n");
     LOG_DT("_____\n");
-    LOG_ET("Nhap chuoi: ");
+    LOG_ET("Nhap chuoi: "\n);
         getline(cin, s);
     LOG_ET("tong so: %lld",tong(s));
 }
