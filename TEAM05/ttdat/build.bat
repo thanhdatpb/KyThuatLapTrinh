@@ -5,8 +5,8 @@
 sử dụng  không gian tên  std ;
 int  main ()
 {
-    char ten [] = " Le Quang Khai " ;
-    char lop [] = "  KTLT -K45 -F " ;
+    char ten [] = " Tran Thanh Dat " ;
+    char lop [] = "  KTLT -K45 -A " ;
     int thang = 3 ;
     int nam = 2022 ;
     std :: string name = StringFormat ( " % s% s% 02d% 04d " , ten, lop, thang, nam);
