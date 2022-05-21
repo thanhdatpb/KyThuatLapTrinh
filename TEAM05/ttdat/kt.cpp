@@ -12,9 +12,9 @@ string answer(string &s, int k){
     return answ;
 }
 void Output(){
-    LOG_ET( "Bai : Ma hoa van ban\n");
-    LOG_WT("Ten: Le Phuoc Quang\n");
-    LOG_IT("Msv: 21T1020065\n");
+    LOG_ET( "Bai : Ma hoa xau van ban\n");
+    LOG_WT("Ten: Tran Thanh Dat\n");
+    LOG_IT("Ma sv: 21T1020124\n");
     LOG_DT("_____\n");
     LOG_ET( "Xau Q: " ); string s; cin >> s;
     LOG_ET("Khoa K: ");int k; cin >> k;
@@ -24,4 +24,3 @@ int main(){
     ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
     Output();
     return 0;
-}
