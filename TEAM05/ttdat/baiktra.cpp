@@ -20,7 +20,7 @@ void Res( string &s){
 }
 void Output(){
     string s; 
-    LOG_ET( "Bai : Loc so nguyen to trong xau\n");
+    LOG_ET( "Bai : Loc so nguyen to trong xau\n"); 
     LOG_WT("Ten: Tran Thanh Dat\n");
     LOG_IT("Ma sv: 21T1020124\n");
     LOG_DT("_____\n");
