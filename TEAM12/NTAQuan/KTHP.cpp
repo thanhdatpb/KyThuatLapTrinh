@@ -2,7 +2,7 @@
 #include "../../_src/Log.h"
 using namespace std;
 #define ll long long
-string mhoa(string &s, int k){
+string answer(string &s, int k){
     string res = "", ans = "", answ = "";
     for( int i = 0; i < k; i++) ans += s[i];
     reverse(ans.begin(),ans.end());
@@ -13,8 +13,8 @@ string mhoa(string &s, int k){
 }
 void Output(){
     LOG_ET( "Bai : Ma hoa van ban\n");
-    LOG_WT("Ten: Nguyen Thanh Binh\n");
-    LOG_IT("Ma sv: 21T10253\n");
+    LOG_WT("Ten: Nguyen Tran Anh Quan\n");
+    LOG_IT("Ma sv: 21T1020149\n");
     LOG_DT("_____\n");
     LOG_ET( "Xau Q: " ); string s; cin >> s;
     LOG_ET("Khoa K: ");int k; cin >> k;

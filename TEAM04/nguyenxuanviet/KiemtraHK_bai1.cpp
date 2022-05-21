@@ -1,26 +1,24 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 #include "../../_src/Log.h"
 using namespace std;
-string mahoa(string &s, int n)
+#define ll long long
+string answer(string &s, int k)
 {
-    string vitri, vt, temp;
-    for (int i = 0; i < n; i++)
-    {
-        vt += s[i];
-    }
-    reverse(vt.begin(), vt.end());
-    for (int i = n; i < s.size(); i++)
-    {
-        vitri += s[i];
-    }
-    reverse(vitri.begin(), vitri.end());
-    temp += vt;
-    temp += vitri;
-    return temp;
+    string res = "", ans = "", answ = "";
+    for (int i = 0; i < k; i++)
+        ans += s[i];
+    reverse(ans.begin(), ans.end());
+    for (int i = k; i < s.size(); i++)
+        res += s[i];
+    reverse(res.begin(), res.end());
+    answ += ans;
+    answ += res;
+    return answ;
 }
 void Output()
 {
-    LOG_ET("Bai : Ma hoa van ban\n");
+    LOG_ET("Bai : Ma Hoa Van Ban\n");
     LOG_WT("Ten: Nguyen Xuan Viet\n");
     LOG_IT("Ma sv: 21T1020170\n");
     LOG_DT("_____\n");
@@ -28,18 +26,14 @@ void Output()
     string s;
     cin >> s;
     LOG_ET("Khoa K: ");
-    int n;
-    cin >> n;
+    int k;
+    cin >> k;
     LOG_WT("Xau S: ");
-    cout << mahoa(s, n) << "\n";
+    cout << answer(s, k) << "\n";
 }
 int main()
 {
     ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
-    string s;
-    cin >> s;
-    int n;
-    cin >> n;
-    cout << mahoa(s, n) << endl;
+    Output();
     return 0;
 }
