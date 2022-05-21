@@ -16,7 +16,7 @@ string Tra_loi(string &o, int l)
     return an;
 }
 void Ra(){
-    LOG_ET( "Bai: Ma Hoa Van Ban\n");
+    LOG_ET( "Bai : Ma Hoa Van Ban\n");
     LOG_WT("Ten: Nguyen Hoang Anh Tu\n");
     LOG_IT("Ma sv: 21T1020792\n");
     LOG_DT("-----------\n");
