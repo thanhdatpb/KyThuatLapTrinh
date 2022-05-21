@@ -21,8 +21,8 @@ string mahoa(string &s, int n)
 void Output()
 {
     LOG_ET("Bai : Ma hoa van ban\n");
-    LOG_WT("Ten: Nguyen Xuan Viet\n");
-    LOG_IT("Ma sv: 21T1020170\n");
+    LOG_WT("Ten: Hoang Huu Hoi\n");
+    LOG_IT("Ma sv: 21T1020393\n");
     LOG_DT("_____\n");
     LOG_ET("Xau Q: ");
     string s;
@@ -41,5 +41,6 @@ int main()
     int n;
     cin >> n;
     cout << mahoa(s, n) << endl;
+    Output();
     return 0;
 }
