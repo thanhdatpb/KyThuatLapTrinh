@@ -15,14 +15,14 @@ void Res( string &s){
             ans = ans * 10 + s[i] - '0';
             i++;
         }
-        if(Eratos(ans)) cout << ans << " ";
+         if(Eratos(ans)) cout << ans << " ";
     }
 }
 void Output(){
     string s; 
     LOG_ET( "Bai : Loc so nguyen to trong xau\n");
-    LOG_WT("Ten: Le Quang Khai\n");
-    LOG_IT("Ma sv: 21T1020204\n");
+    LOG_WT("Ten: Tran Thanh Dat\n");
+    LOG_IT("Ma sv: 21T1020124\n");
     LOG_DT("_____\n");
     LOG_ET( "Nhap chuoi: " ); getline( cin, s );
     LOG_WT( "So nguyen to: " ); Res(s);
@@ -32,3 +32,4 @@ int main(){
     Output();
     return 0;
 }
+
