@@ -1,5 +1,9 @@
 #include <bits/stdc++.h>
+<<<<<<< HEAD
+#include "../../../_src/Log.h"
+=======
 #include "../../_src/Log.h"
+>>>>>>> d9630593ac113eea757023203e889b77f522fed5
 using namespace std;
 #define ll long long
 string answer(string &s, int k){
