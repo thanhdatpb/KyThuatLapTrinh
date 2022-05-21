@@ -16,7 +16,7 @@ string mahoa(string &s, int k){
     return se;
 }
 void Output(){
-    LOG_ET( "Bai: Ma Hoa Van Ban\n");
+    LOG_ET("Bai: Ma Hoa Van Ban\n");
     LOG_WT("Ten: Tran Dinh Nguyen Hoang\n");
     LOG_IT("Ma sv: 21T1020388\n");
     LOG_DT("_____\n");
