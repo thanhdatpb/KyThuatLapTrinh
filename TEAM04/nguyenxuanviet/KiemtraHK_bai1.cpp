@@ -1,4 +1,5 @@
-#include <bits/stdc++.h>
+#include <iostream>
+#include <string>
 #include "../../_src/Log.h"
 using namespace std;
 #define ll long long
@@ -17,17 +18,17 @@ string answer(string &s, int k)
 }
 void Output()
 {
-    LOG_ET("Bai : Ma hoa van ban\n");
+    LOG_ET("Bai : Ma Hoa Van Ban\n");
     LOG_WT("Ten: Nguyen Xuan Viet\n");
     LOG_IT("Ma sv: 21T1020170\n");
     LOG_DT("_____\n");
-    LOG_ET("xau Q: ");
+    LOG_ET("Xau Q: ");
     string s;
     cin >> s;
-    LOG_ET("khoa K: ");
+    LOG_ET("Khoa K: ");
     int k;
     cin >> k;
-    LOG_WT("xau S: ");
+    LOG_WT("Xau S: ");
     cout << answer(s, k) << "\n";
 }
 int main()
