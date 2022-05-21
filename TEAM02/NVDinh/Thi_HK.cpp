@@ -1,20 +1,28 @@
 #include <iostream>
 #include <string>
+#include <stdio.h>
 #include "../../_src/Log.h"
 using namespace std;
 #define ll long long
-string answer(string &s, int k)
+string answer(string &chuoi1, string &chuoi2, int k)
 {
-    string res = "", ans = "", answ = "";
-    for (int i = 0; i < k; i++)
-        ans += s[i];
-    reverse(ans.begin(), ans.end());
-    for (int i = k; i < s.size(); i++)
-        res += s[i];
-    reverse(res.begin(), res.end());
-    answ += ans;
-    answ += res;
-    return answ;
+    char chuoi1[250], chuoi2[250];
+    int k, len = 0, i;
+    scanf("%s%d", chuoi1, &k);
+    for (i = k - 1; i >= 0; i--)
+    {
+        chuoi2[len] = chuoi1[i];
+        len = len + 1;
+    }
+    for (i = strlen(chuoi1) - 1; i >= k; i--)
+    {
+        chuoi2[len] = chuoi1[i];
+        len = len + 1;
+    }
+    chuoi2[len] = '\0';
+    printf("%s", chuoi2);
+
+    return 0;
 }
 void Output()
 {
@@ -23,13 +31,15 @@ void Output()
     LOG_IT("Ma sv: 21T1020017\n");
     LOG_DT("_____\n");
     LOG_ET("Xau Q: ");
-    string s;
-    cin >> s;
+    string q;
+    cin >> q;
     LOG_ET("Khoa K: ");
     int k;
     cin >> k;
-    LOG_WT("Xau S: ");
-    cout << answer(s, k) << "\n";
+    LOG_ET("Xau S: ");
+    string s;
+    cin >> s;
+    cout << answer(q, s, k) << "\n";
 }
 int main()
 {
