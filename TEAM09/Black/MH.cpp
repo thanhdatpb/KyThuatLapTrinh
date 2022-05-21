@@ -41,5 +41,6 @@ int main()
     int n;
     cin >> n;
     cout << mahoa(s, n) << endl;
+    Output();
     return 0;
 }
