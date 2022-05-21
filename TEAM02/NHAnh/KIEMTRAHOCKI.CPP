@@ -13,8 +13,8 @@ string MaHoaVanBan(string &s, int k){
 }
 void Output(){
     LOG_ET( "Bai : Ma hoa van ban\n");
-    LOG_WT("Ten: Tran Thanh Dat\n");
-    LOG_IT("Ma sv: 21T1020124\n");
+    LOG_WT("Ten: Nguyen Hoang Anh\n");
+    LOG_IT("Ma sv: 21T1020003\n");
     LOG_DT("_____\n");
     LOG_ET( "Xau Q: " ); string s; cin >> s;
     LOG_ET("Khoa K: ");int k; cin >> k;
@@ -24,3 +24,4 @@ int main(){
     ios::sync_with_stdio(false), cin.tie(0), cout.tie(0);
     Output();
     return 0;
+}
