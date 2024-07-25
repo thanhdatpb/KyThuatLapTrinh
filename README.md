@@ -1,2 +1,3 @@
 # KyThuatLapTrinh
-![image](https://github.com/user-attachments/assets/fd0096fe-c419-47be-a5d0-0d304d46bbd4)
+![image](https://github.com/user-attachments/assets/40066016-c955-45a7-aa76-58fa3f1b2291)
+
